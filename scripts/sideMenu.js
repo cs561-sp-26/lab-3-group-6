@@ -28,3 +28,19 @@ for (let i = 0; i < GlobalMenuItems.length; ++i) {
         GlobalMenuBtn.click();
     });
 }
+
+function keyDownMenuBtnFocused(key) {
+    if (key === "ArrowDown" || key === "ArrowUp" ||
+        key === "Space" || key === "Enter") {
+
+        GlobalMenuBtn.click();
+
+        if (key === "ArrowUp") {
+            GlobalFocusedMenuItem.set(GlobalMenuItems.length - 1);
+        } else {
+            GlobalFocusedMenuItem.set(0);
+        }
+
+        GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+    }
+}
