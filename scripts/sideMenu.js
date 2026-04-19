@@ -44,3 +44,38 @@ function keyDownMenuBtnFocused(key) {
         GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
     }
 }
+
+function keyDownMenuItemFocused(key) {
+    if (key == "Enter") {
+        document.activeElement.click();
+
+    } else if (key === "Tab") {
+        GlobalMenuBtn.click();
+
+    } else if (key == "Escape") {
+        GlobalMenuBtn.click();
+        GlobalMenuBtn.focus();
+
+    } else if (key === "ArrowUp") {
+        GlobalFocusedMenuItem.set(
+            (GlobalFocusedMenuItem.get() - 1 + GlobalMenuItems.length) 
+            % GlobalMenuItems.length
+        );
+        GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+
+    } else if (key === "ArrowDown") {
+        GlobalFocusedMenuItem.set(
+            (GlobalFocusedMenuItem.get() + 1) 
+            % GlobalMenuItems.length
+        );
+        GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+
+    } else if (key === "Home") {
+        GlobalFocusedMenuItem.set(0);
+        GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+
+    } else if (key === "End") {
+        GlobalFocusedMenuItem.set(GlobalMenuItems.length - 1);
+        GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+    }
+}
