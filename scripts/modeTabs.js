@@ -45,3 +45,43 @@ function switchMode(newMode) {
 for (let i = 0; i < GlobalModeTabButtons.length; ++i) {
     GlobalModeTabButtons[i].addEventListener("click",() => switchMode(i));
 }
+
+
+/*************************************************************************
+ * @function keyDownModeTabFocused 
+ * @Desc 
+ * Handles valid keydown events when a mode tab button has the focus.
+ * Left/Right Arrow move focus; Home/End jump to first/last tab;
+ * Enter/Space select the focused tab; Tab resets focus to current tab.
+ * @param key: the string corresponding the key pressed
+ *************************************************************************/
+function keyDownModeTabFocused(key) {
+    if (key == "Enter" || key == "Space") {
+      switchMode(GlobalFocusedMode.get()); 
+    } else if (key == "ArrowRight") {
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","-1");
+        GlobalFocusedMode.set((GlobalFocusedMode.get() + 1) % GlobalModeTabButtons.length); 
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","0");
+        GlobalModeTabButtons[GlobalFocusedMode.get()].focus();  
+    } else if (key == "ArrowLeft") {
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","-1");
+        GlobalFocusedMode.set((GlobalFocusedMode.get() - 1 + 
+            GlobalModeTabButtons.length) % GlobalModeTabButtons.length); 
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","0");
+        GlobalModeTabButtons[GlobalFocusedMode.get()].focus(); 
+    } else if (key == "Home") {
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","-1");
+        GlobalFocusedMode.set(0); 
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","0");
+        GlobalModeTabButtons[GlobalFocusedMode.get()].focus(); 
+    } else if (key == "End") {
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","-1");
+        GlobalFocusedMode.get() = modeTabButtons.length - 1;
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","0");
+        GlobalModeTabButtons[GlobalFocusedMode.get()].focus();  
+    } else if (key == "Tab") {
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","-1");
+        GlobalFocusedMode.set(GlobalCurrentMode.get()); 
+        GlobalModeTabButtons[GlobalFocusedMode.get()].setAttribute("tabindex","0");  
+    }  
+}
