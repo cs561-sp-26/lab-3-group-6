@@ -35,7 +35,12 @@ history management for the SpeedScore app. Two files were added:
 To be completed after merge conflict is performed and resolved.
 
 ### Rebase Description
-To be completed after rebase is performed.
+In this branch, I rebased `feature/keyboard-and-history` onto main
+after Person 1 merged `feature/global-variables` into main. I ran
+`git fetch origin` followed by `git rebase origin/main` which replayed
+my local commits on top of the updated main branch, ensuring my keyboard
+and history feature was built on top of the latest codebase. The HEAD
+commit ID after the rebase was completed is `b1f4d5a`.
 
 ### Cherry Pick Description
 In this branch, I cherry-picked commit `edc6071` from Trisha's
