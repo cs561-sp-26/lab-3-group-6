@@ -32,7 +32,13 @@ history management for the SpeedScore app. Two files were added:
 ### Total Commits Made in this Branch: 7
 
 ### Merge Conflict Description
-To be completed after merge conflict is performed and resolved.
+In this branch, I encountered a merge conflict when merging
+`feature/keyboard-and-history` into `main`. The conflict occurred
+in `scripts/main.js` on the file header comment. Main had the comment
+"main branch version" while my branch had "Global variables and app
+state". I resolved the conflict by accepting the incoming change from
+my branch as it was more descriptive. The commit ID for this merge
+resolution is `1f6731a`.
 
 ### Rebase Description
 In this branch, I rebased `feature/keyboard-and-history` onto main
