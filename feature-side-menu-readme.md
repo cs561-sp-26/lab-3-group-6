@@ -36,7 +36,9 @@ N/A
 ---
 
 ## Rebase Description  
-N/A
+A rebase was performed on the feature/side-menu branch using the git rebase origin/main command to incorporate the latest updates from the main branch. This ensured that the branch was up to date with the most recent changes made by other team members before merging.
+The rebase completed successfully without any merge conflicts, indicating that the changes in this branch were compatible with the current state of the main branch. The branch history was rewritten to maintain a clean and linear commit structure, avoiding unnecessary merge commits.
+This process helped ensure a smoother integration into the main branch and demonstrated proper use of rebasing as part of collaborative version control practices.
 
 ---
 
