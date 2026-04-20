@@ -21,15 +21,25 @@ history management for the SpeedScore app. Two files were added:
 
 | Commit ID | Commit Message | # Lines Changed |
 | --------- | -------------- | --------------- |
-| f93f138 | File creation for the keyboard and history feature JavaScript files | 0 |
-| 34e1fed | First commit | 0 |
-| 4754d1d | Add document keydown event listener skeleton | 13 |
-| 637aef7 | Route keydown events to menu button and menu item handlers | 8 |
-| 15d6168 | Route keydown events to mode tab and dialog handlers | 8 |
-| f62f27e | Add restoreState function and initialize app on window load | 44 |
-| d97a0c6 | Add popstate listener to handle browser back/forward navigation | 13 |
+| 6b58ae7 | File creation for the keyboard and history feature JavaScript files | 1 |
+| eb206f8 | First commit | 1 |
+| fec5440 | Add document keydown event listener skeleton | 8 |
+| 584047c | Route keydown events to menu button and menu item handlers | 13 |
+| 53ee97d | Route keydown events to mode tab and dialog handlers | 12 |
+| 5291ecf | Add restoreState function and initialize app on window load | 48 |
+| 2f2d209 | Add popstate listener to handle browser back/forward navigation | 9 |
+| 526be0d | Add branch README for feature/keyboard-and-history | 41 |
+| f3914f1 | Move document.js and window.js into scripts directory | 25 |
+| 739706f | Add initialization log to switchMode for debugging | 43 |
+| 98394dc | Add console log to switchMode for cherry-pick requirement | 2 |
+| b1f4d5a | Performed cherry picking task under Kaveenaya's branch | 7 |
+| eaedf3b | Update branch README to document rebase onto main | 6 |
+| 998418a | Update branch README to document rebase onto main | 1 |
+| 5606acf | Update feature-keyboard-and-history-readme.md with Cherry-Pick description | 6 |
+| 05b76f7 | Update main.js header comment on keyboard-and-history branch | 1 |
+| 3fd4ae5 | Update branch README to document merge conflict resolution | 7 |
 
-### Total Commits Made in this Branch: 7
+### Total Commits Made in this Branch: 17
 
 ### Merge Conflict Description
 In this branch, I encountered a merge conflict when merging
