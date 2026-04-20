@@ -43,7 +43,7 @@
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
 | Akaash Bella | 2 | `feature/new-feature`
-| Gagan Kashyap Muralidhara | 1 | ``feature/side-menu` `
+| Gagan Kashyap Muralidhara | 1 | `feature/side-menu`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
