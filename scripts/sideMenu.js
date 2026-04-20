@@ -32,6 +32,8 @@
     }
 });
 
+console.log("Side menu initialized");
+
 /*************************************************************************
  * @function GlobalMenuItems click handler
  * @desc 
