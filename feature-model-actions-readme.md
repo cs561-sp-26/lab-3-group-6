@@ -34,3 +34,7 @@ A commit was selectively integrated from a teammate’s branch using the `git ch
 To reflect this integration, a small console log reference to the side menu functionality was added in `modeActions.js`. This shows how functionality from another feature can be incorporated without bringing in unrelated changes.
 
 This approach keeps the branch clean and aligned with its purpose while still reusing relevant work from teammates.
+
+### Final Merge to Main
+
+The `feature/mode-actions` branch was successfully merged into the `main` branch using terminal commands. This ensures that all implemented features, including mode action handlers, dialog behavior, cherry-pick integration, rebase updates, and merge conflict resolution, are now part of the main project.
