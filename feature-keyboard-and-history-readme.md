@@ -50,3 +50,8 @@ function in window.js since both deal with mode switching. I ran
 `git cherry-pick edc6071` and resolved a modify/delete conflict by
 accepting the modeTabs.js file into my branch using `git add scripts/modeTabs.js`.
 The commit ID for this cherry pick is `edc6071`.
+
+Kaveenaya: 
+A commit was selectively integrated from the feature/side-menu branch to the main branch using the git cherry-pick command. Instead of merging the entire branch, only this specific commit was applied to ensure minimal and controlled changes to the main branch.
+To reflect this integration, a console log statement was added within the switchMode() function in modeTabs.js. This log outputs the currently selected mode whenever a tab switch occurs, providing lightweight debugging support and demonstrating successful cherry-pick integration.
+This approach ensures that only a targeted change is incorporated, maintaining the integrity of the main branch while still reusing relevant functionality from another branch without introducing unrelated code.
