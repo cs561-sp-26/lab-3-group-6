@@ -21,7 +21,9 @@ I also added support for dialog actions like OK and Cancel to make sure the UI r
 ### Total Commits Made in this Branch: 5
 
 ### Merge Conflict Description
-None encountered in this branch.
+A merge conflict was intentionally created between the `main` branch and the `feature/mode-actions` branch by modifying the same line in `index.html` in both branches. After committing the change in the `main` branch, a different modification was made to the same line in the feature branch.
+
+When merging `main` into `feature/mode-actions`, Git detected a conflict in `index.html` due to these conflicting changes. The conflict was resolved manually by editing the file, removing the conflict markers, and keeping the appropriate final version. The resolution was then staged and committed with commit ID: 3cfbea0.
 
 ### Rebase Description
 Rebased `feature/mode-actions` onto `origin/main` to ensure the branch includes the latest updates from the main branch and maintains a linear commit history with a commit ID: `a214730`.
