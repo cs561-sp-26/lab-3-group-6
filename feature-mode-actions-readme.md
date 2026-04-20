@@ -1,4 +1,4 @@
-# CS 561 Lab 3: Branch `feature/model-actions`
+# CS 561 Lab 3: Branch `feature/mode-actions`
 
 ## Branch Author
 Gagan Kashyap Muralidhara
