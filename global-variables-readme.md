@@ -4,22 +4,35 @@
 Akaash Bella (akaashbella)
 
 ## Summary of Work Done in this Branch
-Insert a summary of the work done in this branch. This should include a description the new feature(s) added and any bugs fixed.
+In this branch, I implemented the shared application state and global DOM references in main.js. This includes defining variables that provide centralized access to frequently used UI elements and maintaining state for core features such as menu navigation, mode switching, and modal dialog interactions.
+
+The work was divided into multiple atomic commits, each focused on a specific concern:
+
+- Initial file setup and structure for main.js
+- Menu-related state and DOM references
+- Mode-to-route mappings for navigation
+- Mode state management and tab UI references
+- Floating action button and modal dialog references
+- Additional shared UI component references
 
 ## Commits
 
 | Commit ID | Commit Message | # Lines Changed
 | --------- | ----------- | ---------------
-| 1234567 | Added new feature to calculate speed score | 50
-| 2345678 | Fixed bug in speed score calculation | 20
+| 867b2eb | Add main.js file to define app state variables and DOM elements | 21
+| 0156e2e | Add global app state variables and menu DOM references in main.js to support menu navigation and dialog handling | 15
+| 7c30906 | Add mode-to-route mapping constants in main.js to support tab navigation and routing | 19
+| 4184aaa | Add mode state and tab DOM references in main.js to support tab selection and focus management | 35
+| d599584 | Add action button and dialog DOM references in main.js to support modal interactions | 12
+| 4dbde3a | Add shared UI element references in main.js for app-wide interaction handling | 6
 
-### Total Commits Made in this Branch: xx
+### Total Commits Made in this Branch: 6
 
-### Merge Conflict Description (Delete if not applicable)
-Example: In this branch, I encountered a merge conflict when merging the `feature/new-feature` branch into the `main` branch. The conflict occurred in the `speed_score.js` file on line 42. I resolved the conflict by keeping the changes from both branches and modifying the code to work together. The commit ID for this merge is `3456789`.
+### Merge Conflict Description
+(To be completed)
 
-### Rebase Description (Delete if not applicable)
-Example: In this branch, I rebased the `feature/new-feature` branch onto the `main` branch. The commit ID for this rebase is `4567890`. I resolved any conflicts that arose during the rebase process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
+### Rebase Description
+(To be completed)
 
-### Cherry Pick Description (Delete if not applicable)
-Example: In this branch, I cherry-picked the commit `5678901` from the `feature/new-feature` branch into the `main` branch. The commit added a new feature to calculate speed score. I resolved any conflicts that arose during the cherry-pick process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
+### Cherry Pick Description
+(To be completed)
