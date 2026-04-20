@@ -46,3 +46,12 @@ function restoreState(state) {
 window.addEventListener('load', (event) => {
   GlobalModeTabButtons[0].click();
 });
+
+window.addEventListener('popstate', (event) => {
+  console.log('Console: In popstate: state:', JSON.stringify(event.state));
+  if (!event.state) {
+    console.log('Console: In popstate: No state associated with this history entry.');
+    return;
+  }
+  restoreState(event.state);
+});
