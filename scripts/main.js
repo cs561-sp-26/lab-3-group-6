@@ -1,5 +1,5 @@
 /*************************************************************************
- * File: main.js
+ * File: main.js - main branch version
  * Definitions of variables to maintain app state and provide
  * convenient access to frequently used DOM elements.
  *************************************************************************/
