@@ -27,4 +27,8 @@ None encountered in this branch.
 Not performed in this branch.
 
 ### Cherry Pick Description
-Not performed in this branch.
+A commit was selectively integrated from a teammate’s branch using the `git cherry-pick` command. The commit with ID `eb86ce5`, authored by Kaveenaya, was chosen because it relates to side menu interaction behavior. Instead of merging the entire branch, only this specific commit was applied to keep the `feature/mode-actions` branch focused.
+
+To reflect this integration, a small console log reference to the side menu functionality was added in `modeActions.js`. This shows how functionality from another feature can be incorporated without bringing in unrelated changes.
+
+This approach keeps the branch clean and aligned with its purpose while still reusing relevant work from teammates.
