@@ -8,7 +8,7 @@
 - Gagan Kashyap Muralidhara (gagankashyap2)
 - Name 3 (GitHub ID 3)
 - Name 4 (GitHub ID 4)
-- Name 5 (GitHub ID 5)
+- Roshan Aditya Murali (roshan-aditya-murali)
 
 ## Commits
 
@@ -18,7 +18,7 @@
 | Gagan Kashyap Muralidhara | 11 | 479  | 43.5
 | Name 3 | 5 | 10 | 2
 | Name 4 | 3 | 5 | 1.67
-| Name 5 | 2 | 2  | 1
+| Roshan Aditya Murali | 17 | 231  | 13.6
 | **Totals** | **30** | **87** | **2.9**
 
 ## Merge Conflicts Resolved
@@ -28,7 +28,7 @@
 | Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Roshan Aditya Murali | 1 | `feature/keyboard-and-history`
 
 ## Rebases
 | Name | # Rebases | Within Branch
@@ -37,7 +37,7 @@
 | Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Roshan Aditya Murali | 1 | `feature/keyboard-and-history`
 
 ## Cherry Picks
 | Name | # Cherry Picks | From Branch
@@ -46,4 +46,4 @@
 | Gagan Kashyap Muralidhara | 1 | `feature/side-menu`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Roshan Aditya Murali | 1 | `feature/mode-tabs`
