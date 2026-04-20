@@ -38,4 +38,10 @@ To be completed after merge conflict is performed and resolved.
 To be completed after rebase is performed.
 
 ### Cherry Pick Description
-To be completed after cherry pick is performed.
+In this branch, I cherry-picked commit `edc6071` from Trisha's
+`feature/mode-tabs` branch. That commit added an initialization
+log to switchMode() which is useful for debugging the restoreState()
+function in window.js since both deal with mode switching. I ran
+`git cherry-pick edc6071` and resolved a modify/delete conflict by
+accepting the modeTabs.js file into my branch using `git add scripts/modeTabs.js`.
+The commit ID for this cherry pick is `edc6071`.
