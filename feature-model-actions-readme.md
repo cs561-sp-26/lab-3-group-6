@@ -24,7 +24,7 @@ I also added support for dialog actions like OK and Cancel to make sure the UI r
 None encountered in this branch.
 
 ### Rebase Description
-Not performed in this branch.
+Rebased `feature/mode-actions` onto `origin/main` to ensure the branch includes the latest updates from the main branch and maintains a linear commit history with a commit ID: `a214730`.
 
 ### Cherry Pick Description
 A commit was selectively integrated from a teammate’s branch using the `git cherry-pick` command. The commit with ID `eb86ce5`, authored by Kaveenaya, was chosen because it relates to side menu interaction behavior. Instead of merging the entire branch, only this specific commit was applied to keep the `feature/mode-actions` branch focused.
