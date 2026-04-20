@@ -24,7 +24,11 @@ In this branch, I implemented the core HTML structure for the SpeedScore applica
 (To be completed)
 
 ### Rebase Description
-(To be completed)
+I rebased the feature/index-integration branch onto the latest main branch using git rebase main. This was done after updating main to include recent changes from other branches.
+
+During the rebase, Git reported that one commit was skipped because it had already been applied to main through a previous cherry-pick. As a result, Git did not duplicate that change and only reapplied the remaining commits from my branch.
+
+The rebase completed successfully, and my branch history was updated so that all remaining commits were placed on top of the latest version of main, resulting in a clean, linear commit history.
 
 ### Cherry Pick Description
 In this branch, I cherry-picked commit 341833b from feature/index-integration into the main branch. This commit added a specific portion of the HTML structure (such as script integration or UI elements) independently, allowing that change to be applied without merging the entire branch.
