@@ -17,6 +17,8 @@
  *        modeTabPanels) corresponding to the new mode
  *************************************************************************/
 function switchMode(newMode) {
+    console.log("Cherry-pick: switchMode triggered with mode =", newMode);
+    
     //Switch mode button
     GlobalModeTabButtons[GlobalCurrentMode.get()].classList.remove("modetab-selected");
     GlobalModeTabButtons[GlobalCurrentMode.get()].setAttribute("aria-selected",false);
