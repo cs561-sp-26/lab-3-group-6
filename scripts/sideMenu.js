@@ -9,7 +9,7 @@
  * When the user clicks the menuBtn, open or close the side menu 
  * based on current menu state.
  *************************************************************************/
-console.log("Cherry-picked logic reference from sideMenu.js"); 
+console.log("Cherry-picked logic reference from sideMenu.js new"); 
 document.getElementById("menuBtn")
    .addEventListener("click", function (e) {
     const sideMenu = document.getElementById("sideMenu");
