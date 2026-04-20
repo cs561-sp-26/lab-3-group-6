@@ -5,7 +5,7 @@
 
 ## Team Members
 - Akaash Bella (akaashbella)
-- Name 2 (GitHub ID 2)
+- Gagan Kashyap Muralidhara (gagankashyap2)
 - Name 3 (GitHub ID 3)
 - Name 4 (GitHub ID 4)
 - Name 5 (GitHub ID 5)
@@ -15,7 +15,7 @@
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
 | Akaash Bella | 12 | 50 | 4.2
-| Name 2 | 8 | 20  | 2.5
+| Gagan Kashyap Muralidhara | 11 | 479  | 43.5
 | Name 3 | 5 | 10 | 2
 | Name 4 | 3 | 5 | 1.67
 | Name 5 | 2 | 2  | 1
@@ -25,7 +25,7 @@
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
 | Akaash Bella | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
@@ -34,7 +34,7 @@
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
 | Akaash Bella | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
@@ -43,7 +43,7 @@
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
 | Akaash Bella | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Gagan Kashyap Muralidhara | 1 | ``feature/side-menu` `
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
