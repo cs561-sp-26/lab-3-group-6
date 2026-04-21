@@ -18,9 +18,3 @@ In this branch, I added CSS styling for the mode pages in style.css, including l
 
 ### Merge Conflict Description
 In this branch, I encountered a merge conflict in styles/style.css while merging main into feature/css-mode-page. The conflict occurred in the .mode-page selector because my branch changed padding-top to 70px, while the main branch changed it to 60px. I resolved the conflict by keeping the correct final value of 70px, then staged the file, completed the merge, and later merged the resolved branch back into main.
-
-### Rebase Description
-Done in branch feature/index-integration, can be seen in index-integration-readme.md
-
-### Cherry Pick Description
-Done in branch feature/index-integration, can be seen in index-integration-readme.md
