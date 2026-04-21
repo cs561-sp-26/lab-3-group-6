@@ -189,6 +189,26 @@
     display: flex; 
 }
 
+/* .modetab-btn -- Style mode tabs */
+.modetab-btn { 
+    border: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 17px; 
+    font-variant: small-caps;
+    width: 25%;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}   
+
+/* .modetab-selected -- Style the selected mode tab */
+.modetab-selected {
+    cursor: default;
+    border-bottom: 4px solid var(--main-red-color) !important;
+}
+
 /*************************************************************************
 * CSS CLASSES FOR MODE PAGES
 *************************************************************************/
