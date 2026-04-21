@@ -27,12 +27,3 @@ The work was divided into multiple atomic commits, each focused on a specific co
 | 4dbde3a | Add shared UI element references in main.js for app-wide interaction handling | 6
 
 ### Total Commits Made in this Branch: 6
-
-### Merge Conflict Description
-(To be completed)
-
-### Rebase Description
-(To be completed)
-
-### Cherry Pick Description
-(To be completed)
