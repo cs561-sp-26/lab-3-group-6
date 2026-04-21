@@ -20,9 +20,6 @@ In this branch, I implemented the core HTML structure for the SpeedScore applica
 
 ### Total Commits Made in this Branch: 3
 
-### Merge Conflict Description
-(To be completed)
-
 ### Rebase Description
 I rebased the feature/index-integration branch onto the latest main branch using git rebase main. This was done after updating main to include recent changes from other branches.
 
