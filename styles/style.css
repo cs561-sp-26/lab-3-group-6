@@ -138,6 +138,27 @@
 } 
 
 /*************************************************************************
+* CSS CLASSES FOR SIDE MENU
+*************************************************************************/
+
+/* sidemenu -- Styles the side menu */
+.sidemenu {
+    position: fixed; /* Menu stays in place */
+    top: 56px; /* Position menu just below top navbar */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    z-index: 200; /* Force the menu to be near the front */
+    left: 0px; /* Position side menu on left-hand side of screen */
+    height: 100%; /* Menu is full height of window */
+    overflow: hidden;
+    background-color: var(--main-color); /* Match to main-color */
+    color: var(--text-color);
+    list-style-type: none; /* Remove bullets */
+    transition: 0.5s;
+    width: 0px;
+  }
+  
+/*************************************************************************
 * CSS CLASSES FOR MODE PAGES
 *************************************************************************/
 .mode-page-content {
