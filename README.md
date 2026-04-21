@@ -6,7 +6,7 @@
 ## Team Members
 - Akaash Bella (akaashbella)
 - Gagan Kashyap Muralidhara (gagankashyap2)
-- Name 3 (GitHub ID 3)
+- Kaveenaya Srinivasagam Omkumar (kaveenaya)
 - Name 4 (GitHub ID 4)
 - Roshan Aditya Murali (roshan-aditya-murali)
 
@@ -16,7 +16,7 @@
 | --------- | ----------- | ---------|----
 | Akaash Bella | 12 | 50 | 4.2
 | Gagan Kashyap Muralidhara | 11 | 479  | 43.5
-| Name 3 | 5 | 10 | 2
+| Kaveenaya Srinivasagam Omkumar | 18 | 294 | 16 
 | Name 4 | 3 | 5 | 1.67
 | Roshan Aditya Murali | 17 | 231  | 13.6
 | **Totals** | **30** | **87** | **2.9**
@@ -26,7 +26,7 @@
 | --------- | ----------- | ---------------
 | Akaash Bella | 2 | `feature/new-feature`
 | Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
-| Name 3 | 1 | `feature/new-feature`
+| Kaveenaya Srinivasagam Omkumar | 2 | `feature/side-menu`
 | Name 4 | 0 | `feature/new-feature`
 | Roshan Aditya Murali | 1 | `feature/keyboard-and-history`
 
@@ -35,7 +35,7 @@
 | --------- | ----------- | ---------------
 | Akaash Bella | 2 | `feature/new-feature`
 | Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
-| Name 3 | 1 | `feature/new-feature`
+| Kaveenaya Srinivasagam Omkumar | 1 | `feature/side-menu`
 | Name 4 | 0 | `feature/new-feature`
 | Roshan Aditya Murali | 1 | `feature/keyboard-and-history`
 
@@ -44,6 +44,6 @@
 | --------- | ----------- | ---------------
 | Akaash Bella | 2 | `feature/new-feature`
 | Gagan Kashyap Muralidhara | 1 | `feature/side-menu`
-| Name 3 | 1 | `feature/new-feature`
+| Kaveenaya Srinivasagam Omkumar | 1 | `feature/keyboard-and-history`
 | Name 4 | 0 | `feature/new-feature`
 | Roshan Aditya Murali | 1 | `feature/mode-tabs`
