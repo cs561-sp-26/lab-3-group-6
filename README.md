@@ -14,17 +14,17 @@
 
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
-| Akaash Bella | 12 | 50 | 4.2
+| Akaash Bella | 12 | 304 | 25.3
 | Gagan Kashyap Muralidhara | 11 | 479  | 43.5
-| Kaveenaya Srinivasagam Omkumar | 18 | 294 | 16 
-| Trisha Gopinath 6 | 88 | 14.7
+| Kaveenaya Srinivasagam Omkumar | 18 | 294 | 16.3
+| Trisha Gopinath | 6 | 88 | 14.7
 | Roshan Aditya Murali | 17 | 231  | 13.6
-| **Totals** | **30** | **87** | **2.9**
+| **Totals** | **64** | **1396** | **22.7**
 
 ## Merge Conflicts Resolved
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
-| Akaash Bella | 2 | `feature/new-feature`
+| Akaash Bella | 1 | `feature/css-mode-page`
 | Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
 | Kaveenaya Srinivasagam Omkumar | 2 | `feature/side-menu`
 | Trisha Gopinath | 1 | `feature/mode-tabs`
@@ -33,16 +33,16 @@
 ## Rebases
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
-| Akaash Bella | 2 | `feature/new-feature`
+| Akaash Bella | 1 | `feature/index-integration`
 | Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
 | Kaveenaya Srinivasagam Omkumar | 1 | `feature/side-menu`
-| Trisha Gopinath | 4 | 1 | `feature/mode-tabs`
+| Trisha Gopinath | 1 | `feature/mode-tabs`
 | Roshan Aditya Murali | 1 | `feature/keyboard-and-history`
 
 ## Cherry Picks
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
-| Akaash Bella | 2 | `feature/new-feature`
+| Akaash Bella | 1 | `feature/index-integration`
 | Gagan Kashyap Muralidhara | 1 | `feature/side-menu`
 | Kaveenaya Srinivasagam Omkumar | 1 | `feature/keyboard-and-history`
 | Trisha Gopinath | 1 | `feature/mode-tabs`
