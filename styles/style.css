@@ -110,3 +110,7 @@
     width: auto;
     margin-left: 16px;
 } 
+
+.mode-page-header {
+    font-size: 52px;
+}
