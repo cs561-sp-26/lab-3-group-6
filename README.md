@@ -7,7 +7,7 @@
 - Akaash Bella (akaashbella)
 - Gagan Kashyap Muralidhara (gagankashyap2)
 - Kaveenaya Srinivasagam Omkumar (kaveenaya)
-- Name 4 (GitHub ID 4)
+- Trisha Gopinath (tr-cyber)
 - Roshan Aditya Murali (roshan-aditya-murali)
 
 ## Commits
@@ -17,7 +17,7 @@
 | Akaash Bella | 12 | 50 | 4.2
 | Gagan Kashyap Muralidhara | 11 | 479  | 43.5
 | Kaveenaya Srinivasagam Omkumar | 18 | 294 | 16 
-| Name 4 | 3 | 5 | 1.67
+| Trisha Gopinath 6 | 88 | 14.7
 | Roshan Aditya Murali | 17 | 231  | 13.6
 | **Totals** | **30** | **87** | **2.9**
 
@@ -27,7 +27,7 @@
 | Akaash Bella | 2 | `feature/new-feature`
 | Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
 | Kaveenaya Srinivasagam Omkumar | 2 | `feature/side-menu`
-| Name 4 | 0 | `feature/new-feature`
+| Trisha Gopinath | 1 | `feature/mode-tabs`
 | Roshan Aditya Murali | 1 | `feature/keyboard-and-history`
 
 ## Rebases
@@ -36,7 +36,7 @@
 | Akaash Bella | 2 | `feature/new-feature`
 | Gagan Kashyap Muralidhara | 1 | `feature/mode-actions`
 | Kaveenaya Srinivasagam Omkumar | 1 | `feature/side-menu`
-| Name 4 | 0 | `feature/new-feature`
+| Trisha Gopinath | 4 | 1 | `feature/mode-tabs`
 | Roshan Aditya Murali | 1 | `feature/keyboard-and-history`
 
 ## Cherry Picks
@@ -45,5 +45,5 @@
 | Akaash Bella | 2 | `feature/new-feature`
 | Gagan Kashyap Muralidhara | 1 | `feature/side-menu`
 | Kaveenaya Srinivasagam Omkumar | 1 | `feature/keyboard-and-history`
-| Name 4 | 0 | `feature/new-feature`
+| Trisha Gopinath | 1 | `feature/mode-tabs`
 | Roshan Aditya Murali | 1 | `feature/mode-tabs`
