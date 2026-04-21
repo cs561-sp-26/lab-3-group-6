@@ -251,3 +251,11 @@ mode-page-icon {
     background-color: var(--main-color);
     cursor: pointer;
 }
+
+/*************************************************************************
+* CSS CLASSES FOR FLOATING ACTION BUTTON
+*************************************************************************/
+/* Float-btn -- Styling for the floating action button. */
+
+/* float-btn:hover -- When float button is hovered, 
+change cursor to pointer */
