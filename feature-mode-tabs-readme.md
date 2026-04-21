@@ -30,7 +30,7 @@ When merging `feature/mode-tabs` into `main`, Git detected a conflict. The confl
 Rebased `feature/mode-tabs` onto `origin/main` to ensure the branch includes the latest updates from the main branch and maintains a linear commit history with commit ID `be9e2c7`.
 
 ### Cherry Pick Description
-A commit was selectively integrated using `git cherry-pick`. The commit with ID `0526f86` ("Bind switchMode() to click events on all mode tab buttons") was applied to the `main` branch before the full feature branch was merged. A conflict arose because `scripts/modeTabs.js` did not exist in main yet, which was resolved by staging the file and continuing the cherry-pick operation.
+I cherry-picked commit `0526f86` ("Bind switchMode() to click events on all mode tab buttons") to the `main` branch before the full feature merge. This gave the team early access to the click handler functionality. The cherry-pick caused a conflict since `scripts/modeTabs.js` didn't exist in main yet, which I resolved by staging the file and continuing the cherry-pick.
 
 ### Final Merge to Main
 
