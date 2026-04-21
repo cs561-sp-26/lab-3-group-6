@@ -212,6 +212,15 @@
 /*************************************************************************
 * CSS CLASSES FOR MODE PAGES
 *************************************************************************/
+.mode-page {
+    padding-top: 70px;
+}
+
+.mode-page-header {
+    text-align: center;
+    font-size: 48px;
+}
+
 .mode-page-content {
     text-align: center;
     font-size: 24px;
