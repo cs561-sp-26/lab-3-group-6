@@ -177,6 +177,19 @@
 }  
 
 /*************************************************************************
+* CSS CLASSES FOR TOP MODE TABS
+*************************************************************************/
+/* .modetab -- Style the container enclosing the mode tabs */
+.modetab-container {
+    position: fixed;
+    top: 56px;
+    left: 0px;
+    width: 100%;
+    z-index: 150;
+    display: flex; 
+}
+
+/*************************************************************************
 * CSS CLASSES FOR MODE PAGES
 *************************************************************************/
 .mode-page-content {
