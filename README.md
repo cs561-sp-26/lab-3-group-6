@@ -14,12 +14,12 @@
 
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
-| Akaash Bella | 12 | 304 | 25.3
-| Gagan Kashyap Muralidhara | 11 | 479  | 43.5
+| Akaash Bella | 22 | 451 | 20.5
+| Gagan Kashyap Muralidhara | 11 | 479 | 43.5
 | Kaveenaya Srinivasagam Omkumar | 18 | 294 | 16.3
 | Trisha Gopinath | 6 | 88 | 14.7
-| Roshan Aditya Murali | 17 | 231  | 13.6
-| **Totals** | **64** | **1396** | **22.7**
+| Roshan Aditya Murali | 17 | 231 | 13.6
+| **Totals** | **74** | **1543** | **21.7**
 
 ## Merge Conflicts Resolved
 | Name | # MCs Resolved | Merged Branch
